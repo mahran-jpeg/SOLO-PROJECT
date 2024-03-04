@@ -563,6 +563,45 @@ gap: 15px;
 }
 
 
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px){
+  .nav__links, .nav__buttons {
+      display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Header */
+
+  .header__img__wrapper,
+  .header__img__car,
+  .header__img
+ {
+    display: none;
+  }
+  .feature {
+    width: 100%;
+  }
+  .choose__img {
+ display: none;
+  }
+
+  .download__row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .download__text {
+    align-items: center;
+    text-align: center;
+  }
+
+  .download__text__links {
+    justify-content: center;
+  }
+
+}
 
 
 
