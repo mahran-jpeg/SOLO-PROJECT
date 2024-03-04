@@ -604,4 +604,25 @@ gap: 15px;
 }
 
 
+@media (max-width: 640px) {
+  /* Testimonials */
+
+  .testimonial {
+    padding: 32px;
+  }
+
+  .testimonial__review {
+    font-size: 18px;
+  }
+
+  /* Footer */
+
+  .footer__content {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
 
