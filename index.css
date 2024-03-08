@@ -648,6 +648,8 @@ gap: 15px;
 .content__intro__para{
   color: #2d2d2d;
   font-weight: 400;
+  line-height: 35px;
+  white-space: pre-wrap;
 }
 
 
@@ -773,6 +775,12 @@ margin: 0 auto;
 .banner__para{
   white-space: nowrap;
 }
+.banner__para{
+  white-space: pre-wrap;
+}
+.row__download{
+  align-items: center;
+}
 }
 
 
@@ -883,7 +891,12 @@ text-align: center;
   .download__text__link {
     width: 100%;
   }
-
+.banner__para{
+  white-space: pre-wrap;
+}
+.features__subtitle{
+  font-size: 40px;
+}
 
 }
 
