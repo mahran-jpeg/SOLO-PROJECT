@@ -478,6 +478,7 @@ header {
   flex-direction: column;
   padding: 56px;
   gap: 40px;
+  margin: 0 auto;
 }
 .testimonial__customer__list {
   display: flex;
@@ -762,9 +763,9 @@ gap: 15px;
 @media (max-width: 640px) {
   /* Testimonials */
 
-  .testimonial {
+  /* .testimonial {
     padding: 32px;
-  }
+  } */
 
   .testimonial__review {
     font-size: 18px;
@@ -792,6 +793,13 @@ margin: 0 auto;
 .row__download{
   align-items: center;
 }
+.testimonial {
+  padding: 32px;
+  margin-right: 60px;
+  margin-left: 15px;
+  max-width: 350px;
+}
+
 }
 
 
@@ -1021,5 +1029,8 @@ margin-left: 15px;
      }
      .subscription__para{
       font-size: 10px;
+     }
+     .customer__name{
+      word-wrap: break-word;
      }
 }
