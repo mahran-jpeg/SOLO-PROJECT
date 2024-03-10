@@ -1042,4 +1042,9 @@ margin-left: 15px;
      .testimonial{
   margin-right: 110px;
      }
+     .subscription__para__wrapper{
+      max-width: 260px;
+  
+     }
+    
 }
